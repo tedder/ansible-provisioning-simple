@@ -2,6 +2,5 @@
 - debug: var=hubot_dir
 - name: "pull hubot source dest is ({{hubot_dir}})"
   git: repo=git@bitbucket.org:stansonhealth/hubot-stanson.git dest=/opt/hubot/ accept_hostkey=yes key_file=/home/hubot/.ssh/id_rsa
-  remote_user: hubot
   sudo: yes
   notify: restart hubot
