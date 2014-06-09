@@ -1,5 +1,5 @@
 ---
-- hosts: thoughtworks
+- hosts: tag_Role_gocd
   sudo: yes
   vars:
   roles:
