@@ -1,0 +1,6 @@
+---
+- hosts: thoughtworks
+  sudo: yes
+  vars:
+  roles:
+    - hubot
