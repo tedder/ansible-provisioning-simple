@@ -1,0 +1,4 @@
+---
+- name: replace line
+  lineinfile: dest=/tmp/hosts_exp insertafter='\[hosts1\]' regexp='\[hosts1\]' line="xxxxxxxxx" state=present
+

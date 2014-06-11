@@ -4,3 +4,6 @@
   vars:
   roles:
     - hubot
+- hosts: local
+  roles:
+    - regextest
